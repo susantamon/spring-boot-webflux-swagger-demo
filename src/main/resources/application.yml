@@ -1,0 +1,16 @@
+info:
+  version: "@project.version@"
+  title: Pet API
+
+server:
+  port: 8080
+
+spring:
+  webflux:
+    base-path: /
+
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    url: /swagger.yaml
